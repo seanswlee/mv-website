@@ -1,41 +1,70 @@
-# Evelyn
+# MV
 
-Landing page template for Vue.js.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-* [Project setup](#project-setup)
-* [Deploy with Netlify](#deploy-with-netlify)
-* [Deploy with Heroku](#deploy-with-heroku)
+## Available Scripts
 
-## Project setup
-```
-npm install
-```
+In the project directory, you can run:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### `npm start`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Run your tests
-```
-npm run test
-```
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-### Lints and fixes files
-```
-npm run lint
-```
+### `npm test`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Deploy with Netlify
-To deploy with Netlify you just need to create a repository and copy the whole content of the `Vue`folder. Then, create a new site from Git in Netlify to deploy the app. We have included a `netlify.toml` file to allow you deploying without configuring anything.
+### `npm run build`
 
-## Deploy with Heroku
-In order to deploy with Heroku, we have added a `server.js` file in the root and a `start` script in the `package.json` file to be run once Vue.js installs dependencies (express is required as a dependency in the `package.json` file).
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

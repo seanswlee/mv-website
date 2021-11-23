@@ -181,7 +181,7 @@
 	width: $width;
 	max-width: $width;
 	height: $height;
-	background-image: url(../images/#{$file});
+	background-image: url(../../../images/#{$file});
 	background-repeat: no-repeat;
 	@if( unit( $height ) == '%' ) {
 		background-size: contain;
