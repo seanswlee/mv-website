@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d56e57cfac6846922c4a13cf80877eb8",
+    "revision": "42128f856801c3d8af85e894249f15b8",
     "url": "/index.html"
   },
   {
-    "revision": "d5d3a630bf2e83b9419e",
+    "revision": "95077fbd0c0e0704d37f",
     "url": "/static/css/main.a5155ab8.chunk.css"
   },
   {
-    "revision": "c31ab8179de2651cc730",
-    "url": "/static/js/2.5490396d.chunk.js"
+    "revision": "18b70715109c18753bf1",
+    "url": "/static/js/2.6cd383a5.chunk.js"
   },
   {
-    "revision": "d5d3a630bf2e83b9419e",
-    "url": "/static/js/main.09316e58.chunk.js"
+    "revision": "95077fbd0c0e0704d37f",
+    "url": "/static/js/main.d62df5ea.chunk.js"
   },
   {
     "revision": "c29607f7ea1635a39624",
@@ -22,10 +22,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0368a54c014c5821a675c2bb784d90aa",
     "url": "/static/media/andy.0368a54c.jpeg"
-  },
-  {
-    "revision": "8ee651eb6b4ff214f4c9059a019e03f2",
-    "url": "/static/media/evelyn-icon.8ee651eb.svg"
   },
   {
     "revision": "e452c9cf5fd811af42b1fe4fa64dbac5",
