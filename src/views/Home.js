@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroFull from '../components/sections/HeroFull';
-import FeaturesTiles from '../components/sections/FeaturesTiles';
+// import FeaturesTiles from '../components/sections/FeaturesTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Team from '../components/sections/Team';
 
@@ -9,7 +9,7 @@ class Home extends React.Component {
     return (
       <React.Fragment>
         <HeroFull invertColor className="illustration-section-01" />
-        <FeaturesTiles />
+        {/* <FeaturesTiles /> */}
         <FeaturesSplit invertMobile imageFill topDivider />
         <Team />
       </React.Fragment>

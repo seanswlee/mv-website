@@ -48,13 +48,15 @@ class HeroFull extends React.Component {
         <div className="container-sm">
           <div className={innerClasses}>
             <div className="hero-content">
-              MV logo here
-              <h1 className="mt-0 mb-12 reveal-from-top" data-reveal-delay="150">
-                MountainVue
+              <h1 className="mt-0 mb-24 header-font reveal-from-top" data-reveal-delay="150" >
+                MOUNTAINVUE
               </h1>
-              <div className="container-xs">
-                <p className="m-0 mb-32 reveal-from-top" data-reveal-delay="300">
-                  Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+              <div className="container-sm">
+                {/* <p className="m-0 reveal-from-top" data-reveal-delay="450">
+                  Your next favorite developer tool to visualize and traverse through Vue applications
+                </p> */}
+                <p className="m-0 mb-32 reveal-from-top" data-reveal-delay="450">
+                  Development Status: ALPHA
                 </p>
               </div>
             </div>

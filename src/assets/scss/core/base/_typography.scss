@@ -312,3 +312,9 @@ strong {
 		@include font-size(bquote-desktop);
 	}
 }
+
+.socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

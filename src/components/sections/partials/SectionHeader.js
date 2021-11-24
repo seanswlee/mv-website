@@ -13,7 +13,7 @@ const propTypes = {
 
 const defaultProps = {
   children: null,
-  tag: 'h2'
+  tag: 'h4'
 }
 
 class SectionHeader extends React.Component {
@@ -42,7 +42,7 @@ class SectionHeader extends React.Component {
             {...props}
             className={classes}
           >
-            <div className="container-xs">
+            <div className="container-md">
               {children}
               {data.title &&
                 <Component className={

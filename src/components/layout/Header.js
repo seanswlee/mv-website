@@ -65,6 +65,10 @@ class Header extends React.Component {
     this.closeMenu();
   }
 
+  openProjectGitHub = () => {
+    window.open('https://github.com/oslabs-beta/MountainVue', '_blank');
+  }
+
   render() {
     const {
       className,
@@ -129,7 +133,9 @@ class Header extends React.Component {
                         className="list-reset header-nav-right"
                       >
                         <li>
-                          <Link to="/marketplace" className="button button-wide-mobile button-sm" onClick={this.closeMenu}>GET EXT</Link>
+                          <Link className="button button-wide-mobile button-sm" onClick={this.openProjectGitHub}>
+                            <img src={require('../../assets/images/github.svg')} alt="MountainVue GitHub"></img>
+                          </Link>
                         </li>
                       </ul>}
                   </div>
