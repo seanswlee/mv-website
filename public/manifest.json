@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "MV",
+  "name": "Your next favorite Vue developer tool",
   "icons": [
     {
       "src": "mv-favicon.png",
