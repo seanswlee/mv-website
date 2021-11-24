@@ -159,8 +159,8 @@ class Secondary extends React.Component {
               <div className="center-content">
                 <Image
                   className="mb-24"
-                  src={require('./../assets/images/evelyn-icon.svg')}
-                  alt="Evelyn icon"
+                  src={require('./../assets/images/mv-logo.svg')}
+                  alt="MV Logo"
                   width={48}
                   height={48} />
                 <h3 className="mt-0 mb-12">Join our newsletter</h3>
